@@ -19,7 +19,7 @@ body {
 .about .image {
   width: 178px;
   max-width: 178px;
-  margin: 198px auto 0;
+  margin: 150px auto 0;
   overflow: hidden;
 }
 
@@ -1541,4 +1541,24 @@ body {
 
 .links {
   text-decoration: underline;
+}
+
+.social-container {
+    position: relative;
+    display: inline-block;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.social-container li {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.social-media {
+    position: relative;
+    font: normal 2.222em/1.38 FontAwesome;
+    color: black;
 }
