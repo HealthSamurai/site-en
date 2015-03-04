@@ -1557,8 +1557,32 @@ body {
     margin-left: 30px;
 }
 
+
 .social-media {
     position: relative;
+    display: inline-block;
     font: normal 2.222em/1.38 FontAwesome;
     color: black;
+}
+
+a.social-media {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+a:hover.social-media {
+  transform: scale(1.5) rotate(13deg);
+  -webkit-transform: scale(1.5) rotate(13deg);
+	-moz-transform: scale(1.5) rotate(13deg);
+	-ms-transform: scale(1.5) rotate(13deg);
+	-o-transform: scale(1.5) rotate(13deg);    
 }
