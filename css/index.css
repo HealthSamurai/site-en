@@ -5,7 +5,7 @@ body {
 }
 
 .offer-2 p {
-  margin-bottom: 1em;
+  margin-bottom: 10px;
 }
 
 .about {
@@ -450,7 +450,7 @@ body {
 .offer .text {
   float: left;
   width: 270px;
-  height: 270px;
+  height: 460px;
   padding: 20px;
   border: 1px solid rgb(171, 171, 171);
   border-radius: 5px;
@@ -563,7 +563,7 @@ body {
 
 .process .element {
   position: absolute;
-  top: 11px;
+  top: 100px;
   left: 0;
   right: 0;
   z-index: 90;
@@ -574,6 +574,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left top;
+  margin-top: 40px;
 }
 
 .process .text {
@@ -827,12 +828,13 @@ body {
 }
 
 .image-2 {
-  margin: 12px 0 0 -0.04688%;
+  margin: 0 0 0 -0.04688%;
   overflow: visible;
 }
 
 .image-3 {
   margin-left: 12.19271%;
+  margin-top: 15px;
   overflow: hidden;
 }
 
@@ -848,7 +850,7 @@ body {
 }
 
 .image-6 {
-  width: 83px;
+  width: 50px;
   margin-left: 36.04123%;
 }
 
@@ -856,7 +858,7 @@ body {
   float: left;
   clear: both;
   width: 958px;
-  margin-top: 38px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
@@ -869,7 +871,7 @@ body {
   float: left;
   clear: both;
   width: 940px;
-  margin: 44px 0 0 0.51919%;
+  margin-top: 55px;
   overflow: hidden;
 }
 
@@ -954,6 +956,10 @@ body {
   color: rgb(98, 98, 98);
 }
 
+.padleft {
+    padding-left: 370px;
+}
+
 .text-11:hover,
 .text-13:hover,
 .text-7:hover,
@@ -1008,7 +1014,7 @@ body {
   clear: both;
   z-index: 102;
   width: 100%;
-  margin-top: 270px;
+  margin-top: 440px;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
@@ -1078,7 +1084,7 @@ body {
   clear: both;
   z-index: 89;
   width: 100%;
-  margin-top: 317px;
+  margin-top: 190px;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
@@ -1379,7 +1385,6 @@ body {
   float: left;
   clear: both;
   width: 98.7473903966%;
-  margin: 23px 0 0 0.61815%;
   font-size: 1.333em;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -1463,14 +1468,13 @@ body {
   z-index: 159;
   width: 34px;
   height: 20px;
-  margin: -31px 1.4420599999% 0 0;
+  margin: -21px 21% 0 0;
 }
 
 .bar ._container-4 {
   float: right;
   width: 480px;
   height: 59px;
-  margin-right: 10%;
 }
 
 .bar ._container-5 {
@@ -1585,4 +1589,21 @@ a:hover.social-media {
 	-moz-transform: scale(1.5) rotate(13deg);
 	-ms-transform: scale(1.5) rotate(13deg);
 	-o-transform: scale(1.5) rotate(13deg);    
+}
+
+.fonts {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.lists {
+    text-align: left;
+}
+
+.circl {
+    list-style-type: circle;
+}
+
+.money {
+    font-size: 35px;
 }

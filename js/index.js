@@ -64,7 +64,7 @@
     [$process, $processSlide],
     [$projects, $projectsSlide],
     [$team, $teamSlide],
-    [$prototype, $prototypeSlide],
+    //[$prototype, $prototypeSlide],
     [$blog, $blogSlide],
     [$upBtn, $aboutSlide]
   ];

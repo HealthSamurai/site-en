@@ -60,45 +60,74 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <nav class="navbar clearfix">
     <div class="bar clearfix">
       <img class="logo js-about" src="images/minilogo.svg">
-      <ul class="_container-4 clearfix">
-        <li class="_container-5 clearfix">
-          <a href="#projects" class="projects js-projects">Projects</a>
-        </li>
-        <li onClick="window.location='#offer';" class="_container-6 clearfix">
-          <a class="offer js-offer" href="#">Offer</a>
-        </li>
-        <li onClick="window.location='#process';" class="_container-7 clearfix">
-          <a class="process js-process" href="#">Process</a>
-        </li>
-        <li onClick="window.location='#team';" class="_container-8 clearfix">
-          <a class="team js-team" href="#">Team</a>
-        </li>
-        <li class="_container-9 clearfix">
+       <ul class="_container-4 clearfix">
+            <li class="_container-5 clearfix">
+              <a href="#projects" class="projects js-projects">Projects</a>
+            </li>
+            <li onClick="window.location='#offer';" class="_container-6 clearfix">
+              <a class="offer js-offer" href="#">Offer</a>
+            </li>
+            <li onClick="window.location='#process';" class="_container-7 clearfix">
+              <a class="process js-process" href="#">Process</a>
+            </li>
+            <li onClick="window.location='#team';" class="_container-8 clearfix">
+              <a class="team js-team" href="#">Team</a>
+            </li>
+            <li onClick="window.location='#blog';" class="_container-11 clearfix">
+              <a class="blog js-blog" href="#">Blog</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+<!--
+         <li class="_container-9 clearfix">
           <a class="prototype js-prototype" href="#">Prototype<br></a>
         </li>
         <li class="_container-10 clearfix">
           <a id="nav-menu" class="toggle-menu" href="#"></a>
         </li>
-        <li onClick="window.location='#blog';" class="_container-11 clearfix">
-          <a class="blog js-blog" href="#">Blog</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+-->
   
   <p class="text _text text-6 js-projects-slide">WHAT WE'VE DONE<br></p>
   <section class="projects projects-2 clearfix">
     <div class="slidernav clearfix">
-      <img class="image _image image-2 js-choice-btn" src="images/choice.svg">
-      <img class="image _image image-3 js-fhirbase" src="images/fhirebase.svg">
+      <img class="image _image image-2 js-choice-btn" src="images/fhirebase.svg">
+      <img class="image _image image-3 js-fhirbase" src="images/choice.svg">
       <img class="image _image image-4 js-fotmstamp" src="images/stamp.svg">
       <img class="image image-5 js-foodtaster" src="images/foodtaster.svg">
     </div>
+    
     <div class="element"></div>
     <div class="viewport">
       <div class="screens clearfix js-screens">
+       
         <div class="medclient clearfix">
-          <div class="container clearfix">
+<!--
+            <div class="container clearfix">
+                <img class="image _image image-6" src="images/fhirebase.svg">
+                <a class="text _text text-7 links" href="http://try-fhirplace.hospital-systems.com/">FHIRbase</a>
+           </div>
+-->
+            <p class="text _text fonts text-8"><b>Database for Health IT</b></p>
+            <p class="text _text text-8">Open source storage based on the FHIR standard ready for use in production</p>
+         <a href="http://fhirbase.github.io/" target="_blank">
+          <img class="image _image image-7" src="images/fhirbase.png" />
+         </a>
+         </div>
+        <div class="fhirbase clearfix">
+
+<!--            <img class="image _image image-8" src="images/medclient_logo.svg" />-->
+            <a class="text _text padleft text-7 links" href="http://www.choice-hs.com/">MedClient</a>
+
+            <p class="text _text text-10">ONC certified cloud Electronic Health Record System. 
+Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine</p>
+          <img class="image _image image-9" src="images/medclient.png">
+        </div>
+       
+       
+<!--
+        <div class="medclient clearfix">
+           <div class="container clearfix">
             <img class="image _image image-6" src="images/medclient_logo.svg">
             <a class="text _text text-7 links" href="http://www.choice-hs.com/">MedClient</a>
           </div>
@@ -107,6 +136,7 @@ Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
 </p>
           <img class="image _image image-7" src="images/medclient.png">
         </div>
+        
         <div class="fhirbase clearfix">
           <div class="container clearfix">
             <img class="image _image image-8" src="images/fhirebase.svg">
@@ -116,6 +146,8 @@ Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
 </p>
           <img class="image _image image-9" src="images/fhirbase.png">
         </div>
+-->
+        
         <div class="formstamp clearfix">
           <div class="container clearfix">
             <img class="image _image image-10" src="images/stamp.svg">
@@ -132,22 +164,45 @@ Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
           <p class="text _text text-14">Foodtaster is a library for testing your Chef code with RSpec. Specs are executed on VirtualBox machine(s) managed by Vagrant.</p>
           <img class="image _image image-13" src="images/foodtaster.png">
         </div>
+        
       </div>
     </div>
   </section>
   <p class="text _text text-15 js-offer-slide">Health Samurai's Offer</p>
   <section class="offer offer-2 clearfix">
+
     <div class="text _text text-16">
-      <p><span></span></p>
-      <p>Solve your interoperability problems</p>
-</div>
+      <p><b>FHIRbase production</b></p>
+      <p class="money">$30 000</p>
+      <p>We install and support complete and robust FHIRbase infrastructure for production.</p>
+      <ul class="lists">
+          <li> • installation automation</li>
+          <li> • failover & backup</li>
+          <li> • point in time recovery</li>
+          <li> • monitoring and audit tools</li>
+          <li> • education of your engineers</li>
+          <li> • technical support</li>
+      </ul>  
+    </div>
+    
     <div class="text _text text-17">
-      <p><span></span></p>
-      <p>Substitute a poor module within your EHR system with a modern app you will love</p>
+    <p><b>Customization & Integration</b></p>
+     <p class="money">$10 000</p>
+      <p>We customize FHIRbase for your needs and requirements and develop FHIRbase integrations with your platform and technical stack.</p>
+        <ul class="lists">
+          <li> • development</li>
+          <li> • technical consultations</li>
+      </ul>  
 </div>
     <div class="text _text text-18">
-      <p><span></span></p>
-      <p>Create an application targeting a community or a large patient population which will supplement EHR systems from different vendors</p>
+     <p><b>FHIRbase consulting</b></p>
+     <p class="money">$5 000</p>
+      <p>We consult your engineers about FHIRbase and FHIRbase integrations.</p>
+        <ul class="lists">
+          <li> • dedicated person to contact</li>
+          <li> • education about FHIRbase</li>
+          <li> • discussions</li>
+      </ul>  
 </div>
   </section>
   <p id="processHeader" class="text _text text-19 js-process-slide">HOW WE WORK ?</p>
@@ -170,7 +225,7 @@ development</p>
     </div>
     <div class="element"></div>
   </section>
-  <p class="text _text text-26 js-team-slide">Who WE ARE ?</p>
+<!--  <p class="text _text text-26 js-team-slide">Who WE ARE ?</p>-->
   
   <section id="team" class="team team-2">
     <div class="oleg clearfix">
@@ -287,8 +342,11 @@ development</p>
       <p class="text _text text-62">Tech Lead</p>
     </div>
   </section>
+  
+<!--
   <p class="text _text text-63 js-prototype-slide">Order A prototype</p>
   <div class="wrapper wrapper-1"><iframe src="https://docs.google.com/forms/d/18Fk-hJAspE8Y8DoNnIDhohw1ySMOyzvoBgida4-aM08/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+-->
   <p class="text _text text-64 js-blog-slide">Health Samurai's Blog</p>
   <section class="blog blog-2 clearfix">
     <div class="wrapper wrapper-2"><script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@niquola/612de2598043">FHIR for Laboratory Integration</a></div>
