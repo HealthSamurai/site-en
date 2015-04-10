@@ -63,7 +63,8 @@
     [$offer, $offerSlide],
     [$process, $processSlide],
     [$projects, $projectsSlide],
-    [$team, $teamSlide],
+    //[$team, $processSlide],
+    //[$team, $teamSlide],
     //[$prototype, $prototypeSlide],
     [$blog, $blogSlide],
     [$upBtn, $aboutSlide]

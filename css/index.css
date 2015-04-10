@@ -116,7 +116,7 @@ body {
 .bar .projects {
   display: block;
   float: right;
-  width: 55px;
+/*  width: 55px;*/
   height: 20px;
   min-height: 20px;
   font-size: 0.833em;
@@ -1489,15 +1489,15 @@ body {
   clear: both;
   width: 35px;
   height: 20px;
-  margin: -20px 71.2109399999% 0 0;
+  margin: -20px 69% 0 0;
 }
 
 .bar ._container-7 {
   float: right;
   clear: both;
-  width: 55px;
+  width: 112px;
   height: 20px;
-  margin: -20px 51.6992199999% 0 0;
+  margin: -20px 37% 0 0;
 }
 
 .bar ._container-8 {
